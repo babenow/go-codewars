@@ -5,3 +5,5 @@ lint:
 
 test:
 	go test -v -race -timout 30s ./...
+
+.DEFAULT_GOAL := test
